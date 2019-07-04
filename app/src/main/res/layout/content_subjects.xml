@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.projectwork.Subjects"
+    tools:showIn="@layout/app_bar_subjects">
+
+    <!--suppress AndroidDomInspection -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_btn"
+        android:drawableTop="@drawable/test1"
+        android:paddingTop="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Test 1"
+        android:textColor="#3298db"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+
+    <!--suppress AndroidDomInspection -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:background="@drawable/rectangle_btn"
+        android:drawableTop="@drawable/test1"
+        android:paddingTop="50dp"
+        android:text="Test 2"
+        android:textColor="#3298db"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

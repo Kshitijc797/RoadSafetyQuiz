@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.projectwork">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register" />
+        <activity
+            android:name=".Subjects"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Settings"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Feedback"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AboutUs"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Forgot_Email"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ScoreCard"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Frst_Test_Quiz"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".Frst_Test_Level"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Tips"
+            android:parentActivityName=".Subjects"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Second_Test_Quiz"
+            />
+    </application>
+
+</manifest>

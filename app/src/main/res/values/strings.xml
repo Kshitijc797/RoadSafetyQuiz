@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">Driving License</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    // strings for tips activity //
+    <string name="A">A. Before the Online Exam: Prepare</string>
+    <string name="A1">1. Read and understand the test guidelines. Be sure you can answer these OSQuestions: Will the test take place at a specific date and time, or can you take the exam at any point during a particular window of time? How much time will you have to complete the test? Can you take the test at home, or must you take the exam in a specific location (e.g., a campus computer lab)? Are there any other important, “need to know” factors outlined by the instructor?</string>
+    <string name="A2">2. Know the test format. What kinds of OSQuestions will the instructor use on the exam—multiple-choice, fill-in, short answer, essay? Perhaps a combination of various types?</string>
+    <string name="A3">3. Test yourself. If your instructor makes a practice exam available to you, take it! You may also find practice tests in your class textbook.</string>
+    <string name="A4">4. Check your computer. Avoid last-minute problems! Whether you’re using your own computer or one in a lab, verify that it has all the correct hardware and software well in advance of the exam. Also, make sure you’ll be in a location with an adequate Internet location.</string>
+    <string name="A5">5. Study the class materials! Even if the test is “open book,” it’s still important to study and review just as if you were taking the test in a classroom.</string>
+    <string name="A6">6. Plan your time. As you test yourself, limit your time to that which will be allotted for the actual test, and decide how long you will spend on each question (e.g. if the test is one hour long, and you’ll have</string>
+    <string name="A7">7. Carve out a quiet test-taking spot with minimal distractions. Turn off all notifications from IM, your phone, your email, and elsewhere (or, set them to silent). Shut off the TV and radio. Let your roommates or family know that you’ll be taking a test, so that they’re less likely to interrupt you during that time.</string>
+    <string name="A8">8. Determine when you will take the test. You may have to take the exam at a specific time; however, if the test will be available for several hours (or even a few days), choose a time that presents the least potential for distraction, interruption, and stress.</string>
+    <string name="A9">9. Gather all that you’ll need to take the test. If you can have materials such as notes, books, or writing implements with you, be sure that they’re set to go.</string>
+    <string name="A10">10. Take a deep breath! Once you’re logged in, take a moment to relax and get focused.</string>
+    <string name="B">B. During the Online Exam: Focus</string>
+    <string name="B1">1. Keep an eye on the clock. You may want to set an alarm to notify you when you have limited time (e.g., 10 minutes) remaining in your testing period.</string>
+    <string name="B2">2. Don’t leave the test page! If you are permitted to search the web or check other websites for information, do not use the same tab or copy of the browser as you do for your exam—you may lose all your work. Instead, open a second copy of your browser (or, choose a completely different browser), then conduct your search.</string>
+    <string name="B3">3. Technical problems? Don’t panic. But do contact your instructor immediately, detailing the exact problem that occurred and any error messages you might have received. If you can take a screen shot, that is helpful as well.</string>
+    <string name="B4">4. Check your work before you submit it. Ensure that every answer is complete and appears as you intended. Review the accuracy of your answers, as well as your spelling and grammar.</string>
+    <string name="B5">5. Click submit. You should only need to do so once, but if you have a problem, try once more. If you still have a problem submitting the test, let your instructor know immediately, and send your intended answers in an attached document.</string>
+    <string name="C">C. After the Online Exam: Review</string>
+    <string name="C1">1. Assess your own progress. How do you believe you did? What OSQuestions did you find confusing? Did you have to skip anything? Return to your notes and readings, and see if you can find the answers to the OSQuestions that challenged you.</string>
+    <string name="C2">2. Check your grade. In some cases, you may be able to learn your grade immediately. However, exams with written answers will take longer for your instructor to grade, so allow some time to find out your score.</string>
+    <string name="C3">3. Ask yourself how you can improve on the next exam. Did your study strategies work? Did your plan for taking the test online prove successful? Write down your observations and keep them in mind for the next time you take a test.</string>
+    <string name="last">ALL THE BEST</string>
+
+    <string-array name="data">
+        <item>kshitijc797@gmail.com </item>
+        <item>sahillsehgal97@gmail.com</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="note">"ProjectWork is a smart app which is designed with simple and optimized user interface. ProjectWork has all the main subjects which OSQuestions are asked in an interview. It helps the student in learning the concepts which can be asked in the exam or in the interview so that they can be well prepared.</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+</resources>
